@@ -94,7 +94,38 @@ nav{
 }
 
 .video-part{
-  width: 465px;
+  
+}
+
+
+.nav-item:active{
+  background-color: rgba(25, 25, 25, 0.7);
+  color: white;
+}
+
+.nav-logo:active{
+  opacity: .4;
+}
+
+.offen-link{
+  padding: 8px 16px;
+  background: #00BAFC;
+  color: white;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  
+}
+
+.offen-link:hover{
+  border: 3px solid #00BAFC;
+  background: white;
+  color: #00BAFC;
+}
+
+.offen-link:active{
+  background-color: #00BAFC;
+  color: white;
+  opacity: 0.5;
 }
 
 .level-up{
@@ -109,4 +140,3 @@ nav{
   font-size: 30px;
   margin-bottom: 16px;
 }
-
